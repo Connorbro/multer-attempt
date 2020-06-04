@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload an image!</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload an image!</h1>
+        
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <div class="fileupload">
+                <div class="btn grey">
+                    <span>File</span>
+                    <input name="myimage" type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+
+                </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
